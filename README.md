@@ -2,13 +2,11 @@
 
 ## Overview
 
-This project analyses bulk RNA-seq data from papillary renal cell carcinoma (pRCC) and matched adjacent-normal kidney tissue.
+This project analyses bulk RNA-seq data from papillary renal cell carcinoma (pRCC) and matched normal kidney tissue.
 
 The main research aim was to identify which genes and biological pathways are consistently altered between pRCC tumor and matched normal tissue.
 
 The study contains 106 RNA-seq samples from 53 matched tumor/normal patient pairs (GSE180777).
-
-The analysis was performed primarily in R and covers the workflow from raw sequencing reads through differential expression and pathway analysis.
 
 ## Methods 
 
@@ -128,7 +126,7 @@ GO GSEA
 
 This analysis demonstrates an end-to-end RNA-seq workflow from raw sequencing data to biological interpretation.
 
-The pRCC samples show coordinated transcriptional changes involving tumor proliferation, immune-associated processes and loss of renal/metabolic expression programs.
+The pRCC samples show coordinated transcriptional changes involving tumor proliferation, immune-associated processes and loss of renal/metabolic expression.
 
 The project also demonstrates independent processing of raw RNA-seq reads through quality control, trimming, alignment and gene-level quantification rather than relying exclusively on a deposited processed dataset.
 
