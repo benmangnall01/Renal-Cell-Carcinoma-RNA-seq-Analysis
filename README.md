@@ -6,9 +6,9 @@ This project analyses bulk RNA-seq data from papillary renal cell carcinoma (pRC
 
 The main research question was:
 
-Which genes and biological pathways are consistently altered between pRCC tumour and matched normal tissue?
+Which genes and biological pathways are consistently altered between pRCC tumor and matched normal tissue?
 
-The study contains 106 RNA-seq samples from 53 matched tumour/normal patient pairs (GSE180777).
+The study contains 106 RNA-seq samples from 53 matched tumor/normal patient pairs (GSE180777).
 
 The analysis was performed primarily in R and covers the workflow from raw sequencing reads through differential expression and pathway analysis.
 
@@ -33,7 +33,7 @@ Genes were retained when they had at least 10 reads in at least 10 samples. This
 
 **Differential expression**
 
-Differential expression was performed with DESeq2 as Tumour vs Normal cells
+Differential expression was performed with DESeq2 as tumor vs Normal cells
 
 **Pathway analysis**
 
@@ -42,9 +42,9 @@ Biological interpretation was performed using Gene Ontology (GO) Biological Proc
 ## Results
 **Differential expression**
 
-The analysis identified widespread transcriptional differences between tumour and matched normal tissue. Among the most statistically significant genes were:
+The analysis identified widespread transcriptional differences between tumor and matched normal tissue. Among the most statistically significant genes were:
 
-**Increased in tumour:**\
+**Increased in tumor:**\
 MKI67\
 BUB1\
 E2F8\
@@ -56,7 +56,7 @@ DTL
 
 These genes are associated with cell proliferation, DNA replication and mitotic processes.
 
-**Decreased in tumour:**\
+**Decreased in tumor:**\
 ALDOB\
 F11\
 UMOD\
@@ -72,7 +72,7 @@ The strongest individual changes included large positive and negative log2 fold 
 
 **Pathway analysis**
 
-GO enrichment of tumour-upregulated genes was strongly dominated by immune-related biological processes, including:
+GO enrichment of tumor-upregulated genes was strongly dominated by immune-related biological processes, including:
 
 Leukocyte-mediated immunity\
 Lymphocyte-mediated immunity\
@@ -83,7 +83,7 @@ Adaptive immune response\
 Leukocyte migration\
 Regulation of T-cell activation
 
-These results indicate a strong tumour-associated immune expression signal.
+These results indicate a strong tumor-associated immune expression signal.
 
 GO enrichment of downregulated genes was dominated by metabolic and renal processes, particularly small-molecule, organic-acid and amino-acid metabolism together with renal transport processes. GSEA supported these findings.
 
@@ -105,13 +105,13 @@ For example, the GSEA normalized enrichment score (NES) was approximately -3.25 
 
 **Biological interpretation**
 
-Taken together, the results indicate three broad transcriptional patterns distinguishing pRCC tumour from adjacent-normal tissue:
+Taken together, the results indicate three broad transcriptional patterns distinguishing pRCC tumor from adjacent-normal tissue:
 
 Increased cell proliferation and cell-cycle activity\
 Strong immune-associated transcriptional activity\
 Reduced renal/metabolic and small-molecule catabolic programs
 
-Because this is bulk RNA-seq, the immune-related signal may reflect differences in the cellular composition of tumour and normal tissue as well as changes in gene expression within individual cell types.
+Because this is bulk RNA-seq, the immune-related signal may reflect differences in the cellular composition of tumor and normal tissue as well as changes in gene expression within individual cell types.
 
 **Key figures**
 
@@ -130,7 +130,7 @@ GO GSEA
 
 This analysis demonstrates an end-to-end RNA-seq workflow from raw sequencing data to biological interpretation.
 
-The pRCC samples show coordinated transcriptional changes involving tumour proliferation, immune-associated processes and loss of renal/metabolic expression programs.
+The pRCC samples show coordinated transcriptional changes involving tumor proliferation, immune-associated processes and loss of renal/metabolic expression programs.
 
 The project also demonstrates independent processing of raw RNA-seq reads through quality control, trimming, alignment and gene-level quantification rather than relying exclusively on a deposited processed dataset.
 
