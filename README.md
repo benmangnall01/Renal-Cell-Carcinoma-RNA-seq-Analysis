@@ -29,9 +29,7 @@ Read-length distribution
 
 **Gene filtering**
 
-Genes were retained when they had at least 10 reads in at least 10 samples.
-
-This reduced the dataset from 60,675 genes to 41,671 genes for downstream analysis.
+Genes were retained when they had at least 10 reads in at least 10 samples. This reduced the dataset from 60,675 genes to 41,671 genes for downstream analysis.
 
 **Differential expression**
 
@@ -39,16 +37,12 @@ Differential expression was performed with DESeq2 as Tumour vs Normal cells
 
 **Pathway analysis**
 
-Biological interpretation was performed using Gene Ontology (GO) Biological Process enrichment and GO Biological Process GSEA
-
-The GSEA used the complete ranked differential-expression result rather than only statistically significant genes.
+Biological interpretation was performed using Gene Ontology (GO) Biological Process enrichment and GO Biological Process GSEA. The GSEA used the complete ranked differential-expression result rather than only statistically significant genes.
 
 ## Results
 **Differential expression**
 
-The analysis identified widespread transcriptional differences between tumour and matched normal tissue.
-
-Among the most statistically significant genes were:
+The analysis identified widespread transcriptional differences between tumour and matched normal tissue. Among the most statistically significant genes were:
 
 **Increased in tumour:**\
 MKI67\
