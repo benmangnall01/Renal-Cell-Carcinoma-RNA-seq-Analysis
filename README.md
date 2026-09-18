@@ -128,8 +128,6 @@ This analysis demonstrates an end-to-end RNA-seq workflow from raw sequencing da
 
 The pRCC samples show coordinated transcriptional changes involving tumor proliferation, immune-associated processes and loss of renal/metabolic expression.
 
-The project also demonstrates independent processing of raw RNA-seq reads through quality control, trimming, alignment and gene-level quantification rather than relying exclusively on a deposited processed dataset.
-
 ## Dataset
 
 GEO accession: GSE180777
