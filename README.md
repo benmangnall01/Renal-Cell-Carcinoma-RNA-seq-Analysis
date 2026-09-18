@@ -20,12 +20,12 @@ Raw and trimmed FASTQ files were assessed with FastQC.
 
 QC included:
 
-per-base sequence quality \
-sequence composition\
+Per-base sequence quality \
+Sequence composition\
 GC content\
-duplication\
-adapter content\
-read-length distribution
+Duplication\
+Adapter content\
+Read-length distribution
 
 **Gene filtering**
 
@@ -80,34 +80,32 @@ The strongest individual changes included large positive and negative log2 fold 
 
 GO enrichment of tumour-upregulated genes was strongly dominated by immune-related biological processes, including:
 
-leukocyte-mediated immunity\
-lymphocyte-mediated immunity\
-regulation of lymphocyte activation\
-leukocyte proliferation\
-lymphocyte proliferation\
-adaptive immune response\
-leukocyte migration\
-regulation of T-cell activation
+Leukocyte-mediated immunity\
+Lymphocyte-mediated immunity\
+Regulation of lymphocyte activation\
+Leukocyte proliferation\
+Lymphocyte proliferation\
+Adaptive immune response\
+Leukocyte migration\
+Regulation of T-cell activation
 
 These results indicate a strong tumour-associated immune expression signal.
 
-GO enrichment of downregulated genes was dominated by metabolic and renal processes, particularly small-molecule, organic-acid and amino-acid metabolism together with renal transport processes.
-
-GSEA supported these findings.
+GO enrichment of downregulated genes was dominated by metabolic and renal processes, particularly small-molecule, organic-acid and amino-acid metabolism together with renal transport processes. GSEA supported these findings.
 
 Strong negative enrichment was observed for metabolic processes including:
 
-organic acid catabolic process\
-carboxylic acid catabolic process\
-monocarboxylic acid catabolic process\
-fatty acid catabolic process
+Organic acid catabolic process\
+Carboxylic acid catabolic process\
+Monocarboxylic acid catabolic process\
+Fatty acid catabolic process
 
 Positive enrichment was observed for proliferative processes including:
 
-sister chromatid segregation\
-chromosome segregation\
-cell-cycle checkpoint signalling\
-mitotic cell-cycle processes
+Pister chromatid segregation\
+Chromosome segregation\
+Cell-cycle checkpoint signalling\
+Mitotic cell-cycle processes
 
 For example, the GSEA normalized enrichment score (NES) was approximately -3.25 for organic acid catabolism and +3.06 for sister chromatid segregation.
 
