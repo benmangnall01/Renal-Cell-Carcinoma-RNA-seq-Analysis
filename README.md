@@ -50,7 +50,7 @@ The analysis identified widespread transcriptional differences between tumour an
 
 Among the most statistically significant genes were:
 
-**Increased in tumour**\
+**Increased in tumour:**\
 MKI67\
 BUB1\
 E2F8\
@@ -62,7 +62,7 @@ DTL
 
 These genes are associated with cell proliferation, DNA replication and mitotic processes.
 
-**Decreased in tumour**\
+**Decreased in tumour:**\
 ALDOB\
 F11\
 UMOD\
