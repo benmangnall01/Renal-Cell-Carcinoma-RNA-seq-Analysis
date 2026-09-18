@@ -12,7 +12,7 @@ The study contains 106 RNA-seq samples from 53 matched tumour/normal patient pai
 
 The analysis was performed primarily in R and covers the workflow from raw sequencing reads through differential expression and pathway analysis.
 
-**Methods** 
+## Methods 
 
 **Quality control**
 
@@ -46,7 +46,7 @@ GO Biological Process GSEA
 
 The GSEA used the complete ranked differential-expression result rather than only statistically significant genes.
 
-**Results**\
+## Results\
 **Differential expression**
 
 The analysis identified widespread transcriptional differences between tumour and matched normal tissue.
@@ -137,7 +137,7 @@ GO enrichment of upregulated genes\
 GO enrichment of downregulated genes\
 GO GSEA
 
-**Conclusions**
+## Conclusions
 
 This analysis demonstrates an end-to-end RNA-seq workflow from raw sequencing data to biological interpretation.
 
@@ -145,6 +145,6 @@ The pRCC samples show coordinated transcriptional changes involving tumour proli
 
 The project also demonstrates independent processing of raw RNA-seq reads through quality control, trimming, alignment and gene-level quantification rather than relying exclusively on a deposited processed dataset.
 
-**Dataset**
+## Dataset
 
 GEO accession: GSE180777
