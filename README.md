@@ -111,8 +111,6 @@ Because this is bulk RNA-seq, the immune-related signal may reflect differences 
 
 **Key figures**
 
-The main outputs include:
-
 Library-size QC\
 Detected-gene QC\
 PCA\
