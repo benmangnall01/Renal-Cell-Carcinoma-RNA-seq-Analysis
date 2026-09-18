@@ -20,12 +20,12 @@ Raw and trimmed FASTQ files were assessed with FastQC.
 
 QC included:
 
-per-base sequence quality / 
-sequence composition/
-GC content/
-duplication/
-adapter content/
-read-length distribution/
+per-base sequence quality \
+sequence composition\
+GC content\
+duplication\
+adapter content\
+read-length distribution
 
 **Gene filtering**
 
@@ -61,7 +61,7 @@ TPX2\
 TOP2A\
 CENPE\
 ASPM\
-DTL\
+DTL
 
 These genes are associated with cell proliferation, DNA replication and mitotic processes.
 
@@ -73,7 +73,7 @@ AGMAT\
 PCK1\
 SLC9A3\
 G6PC\
-PLPPR1\  
+PLPPR1
 
 These changes contribute to a strong metabolic/renal-tissue expression signature.
 
@@ -90,7 +90,7 @@ leukocyte proliferation\
 lymphocyte proliferation\
 adaptive immune response\
 leukocyte migration\
-regulation of T-cell activation\
+regulation of T-cell activation
 
 These results indicate a strong tumour-associated immune expression signal.
 
@@ -103,14 +103,14 @@ Strong negative enrichment was observed for metabolic processes including:
 organic acid catabolic process\
 carboxylic acid catabolic process\
 monocarboxylic acid catabolic process\
-fatty acid catabolic process\
+fatty acid catabolic process
 
 while positive enrichment was observed for proliferative processes including:
 
 sister chromatid segregation\
 chromosome segregation\
 cell-cycle checkpoint signalling\
-mitotic cell-cycle processes\
+mitotic cell-cycle processes
 
 For example, the GSEA normalized enrichment score (NES) was approximately -3.25 for organic acid catabolism and +3.06 for sister chromatid segregation.
 
@@ -120,7 +120,7 @@ Taken together, the results indicate three broad transcriptional patterns distin
 
 Increased cell proliferation and cell-cycle activity\
 Strong immune-associated transcriptional activity\
-Reduced renal/metabolic and small-molecule catabolic programs\
+Reduced renal/metabolic and small-molecule catabolic programs
 
 Because this is bulk RNA-seq, the immune-related signal may reflect differences in the cellular composition of tumour and normal tissue as well as changes in gene expression within individual cell types.
 
@@ -135,7 +135,7 @@ MA plot\
 Volcano plot\
 GO enrichment of upregulated genes\
 GO enrichment of downregulated genes\
-GO GSEA\
+GO GSEA
 
 **Conclusions**
 
