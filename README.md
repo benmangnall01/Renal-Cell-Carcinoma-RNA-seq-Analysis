@@ -4,9 +4,7 @@
 
 This project analyses bulk RNA-seq data from papillary renal cell carcinoma (pRCC) and matched adjacent-normal kidney tissue.
 
-The main research question was:
-
-Which genes and biological pathways are consistently altered between pRCC tumor and matched normal tissue?
+The main research aim was to identify which genes and biological pathways are consistently altered between pRCC tumor and matched normal tissue.
 
 The study contains 106 RNA-seq samples from 53 matched tumor/normal patient pairs (GSE180777).
 
