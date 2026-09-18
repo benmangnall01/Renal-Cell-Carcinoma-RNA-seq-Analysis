@@ -39,10 +39,7 @@ Differential expression was performed with DESeq2 as Tumour vs Normal cells
 
 **Pathway analysis**
 
-Biological interpretation was performed using:
-
-Gene Ontology (GO) Biological Process enrichment\
-GO Biological Process GSEA
+Biological interpretation was performed using Gene Ontology (GO) Biological Process enrichment and GO Biological Process GSEA
 
 The GSEA used the complete ranked differential-expression result rather than only statistically significant genes.
 
