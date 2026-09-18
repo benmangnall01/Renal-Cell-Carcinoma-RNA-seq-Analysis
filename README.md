@@ -46,7 +46,7 @@ GO Biological Process GSEA
 
 The GSEA used the complete ranked differential-expression result rather than only statistically significant genes.
 
-## Results\
+## Results
 **Differential expression**
 
 The analysis identified widespread transcriptional differences between tumour and matched normal tissue.
@@ -105,7 +105,7 @@ carboxylic acid catabolic process\
 monocarboxylic acid catabolic process\
 fatty acid catabolic process
 
-while positive enrichment was observed for proliferative processes including:
+Positive enrichment was observed for proliferative processes including:
 
 sister chromatid segregation\
 chromosome segregation\
